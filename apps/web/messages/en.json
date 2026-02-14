@@ -1,0 +1,38 @@
+{
+  "home": {
+    "subtitle": "Your Personalized Growth Companion Blending East & West"
+  },
+  "daily": {
+    "title": "Daily Fortune",
+    "expand": "See Details",
+    "collapse": "Collapse",
+    "share": "Share",
+    "noData": "Today's fortune has not been generated yet"
+  },
+  "chart": {
+    "title": "Natal Chart",
+    "tab": {
+      "astrology": "Western Astrology",
+      "bazi": "Bazi (Four Pillars)"
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "profile": {
+    "title": "Settings",
+    "deleteAccount": "Delete Account",
+    "deleteConfirm": "Are you sure you want to delete your account? It will be permanently removed after 30 days."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong. Please try again later.",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "back": "Back"
+  }
+}

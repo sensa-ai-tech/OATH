@@ -1,0 +1,11 @@
+{
+  "name": "@oath/supabase",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Supabase package — no build needed'",
+    "type-check": "echo 'Supabase Edge Functions use Deno'",
+    "lint": "echo 'Supabase lint — TODO'",
+    "clean": "echo 'No build artifacts'"
+  }
+}

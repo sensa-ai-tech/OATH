@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(wc:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(pnpm --version:*)",
+      "Bash(git init:*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm approve-builds:*)",
+      "Bash(npx turbo run type-check:*)",
+      "Bash(pnpm --filter @oath/ui-kit add:*)",
+      "Bash(npx turbo run build:*)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm remove:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebFetch(domain:6tail.cn)",
+      "Bash(pnpm --filter @oath/bazi-engine add lunar-javascript)",
+      "Bash(pnpm:*)",
+      "Bash(pnpm --filter @oath/bazi-engine add:*)",
+      "Bash(npx vitest:*)",
+      "Bash(python3:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
