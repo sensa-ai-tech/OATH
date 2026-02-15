@@ -6,6 +6,7 @@
  * - houses.ts: Placidus 宮位計算
  * - aspects.ts: 相位計算
  * - natal-chart.ts: 聚合公開 API
+ * - transit.ts: 每日行運計算
  */
 
 export const ASTROLOGY_ENGINE_VERSION = '1.0.0';
@@ -16,6 +17,8 @@ export { computeHouses } from './houses.js';
 export type { HouseData } from './houses.js';
 export { computeAllPlanets } from './planets.js';
 export { computeAspects } from './aspects.js';
+export { computeDailyTransit, extractTransitTags } from './transit.js';
+export type { ComputeTransitInput } from './transit.js';
 
 // Re-export types for convenience
 export type {
@@ -26,3 +29,8 @@ export type {
   Planet,
   AspectType,
 } from '@oath/shared/types/natal-chart.js';
+
+export type {
+  DailyTransit,
+  TransitEvent,
+} from '@oath/shared/types/daily-fortune.js';

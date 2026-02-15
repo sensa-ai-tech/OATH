@@ -87,10 +87,9 @@ describe('matchTemplates', () => {
 // ============================================
 
 describe('DAILY_TEMPLATES — 模板品質', () => {
-  it('should have exactly 50 templates (MVP)', () => {
-    // MVP 第一批目標 50 條
-    // 目前有 43 條（可根據實際數量調整）
-    expect(DAILY_TEMPLATES.length).toBeGreaterThanOrEqual(30);
+  it('should have 200+ templates (Phase 2 target)', () => {
+    // Phase 2 目標：200+ 條模板（含所有分類）
+    expect(DAILY_TEMPLATES.length).toBeGreaterThanOrEqual(200);
   });
 
   it('should have unique IDs for all templates', () => {
