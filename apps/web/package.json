@@ -14,6 +14,8 @@
   "dependencies": {
     "@oath/shared": "workspace:*",
     "@oath/ui-kit": "workspace:*",
+    "@supabase/ssr": "^0.8.0",
+    "@supabase/supabase-js": "^2.96.0",
     "next": "^15.1.0",
     "next-intl": "^4.1.0",
     "react": "^19.0.0",

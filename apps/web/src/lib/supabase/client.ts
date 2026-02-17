@@ -1,0 +1,15 @@
+/**
+ * Supabase Browser Client（CSR 用）
+ *
+ * 用於 Client Components，singleton 模式
+ * 基於 @supabase/ssr 的 cookie 管理
+ */
+
+import { createBrowserClient } from '@supabase/ssr';
+
+export function createClient() {
+  return createBrowserClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  );
+}

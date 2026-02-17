@@ -1,13 +1,16 @@
 {
   "home": {
-    "subtitle": "Your Personalized Growth Companion Blending East & West"
+    "subtitle": "Your Personalized Growth Companion Blending East & West",
+    "cta": "Start Your Journey"
   },
   "daily": {
     "title": "Daily Fortune",
     "expand": "See Details",
     "collapse": "Collapse",
     "share": "Share",
-    "noData": "Today's fortune has not been generated yet"
+    "noData": "Today's fortune has not been generated yet",
+    "offline": "Offline Mode — Showing cached data",
+    "actionTitle": "Today's Action Suggestion"
   },
   "chart": {
     "title": "Natal Chart",
@@ -19,7 +22,39 @@
   "auth": {
     "login": "Login",
     "register": "Register",
-    "logout": "Logout"
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "passwordConfirm": "Confirm Password",
+    "loginSubmit": "Sign In",
+    "registerSubmit": "Create Account",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "googleLogin": "Sign in with Google",
+    "or": "or",
+    "loginError": "Login failed. Please check your credentials.",
+    "registerError": "Registration failed. Please check your information.",
+    "passwordMismatch": "Passwords do not match",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "Password must be at least 8 characters",
+    "oauthError": "Third-party login failed. Please try again."
+  },
+  "birth": {
+    "title": "Birth Information",
+    "description": "Provide your birth details for more personalized guidance",
+    "datetime": "Date and Time of Birth",
+    "timezone": "Timezone",
+    "precision": "Birth Time Precision",
+    "precisionExact": "Exact (know the exact hour and minute)",
+    "precisionApproximate": "Approximate (know AM or PM)",
+    "precisionUnknown": "Unknown",
+    "gender": "Biological Sex (for Bazi)",
+    "genderMale": "Male",
+    "genderFemale": "Female",
+    "genderSkip": "Prefer not to say",
+    "location": "Birth Location",
+    "locationHelper": "Optional — provides more accurate astrology data"
   },
   "profile": {
     "title": "Settings",
@@ -33,6 +68,8 @@
     "cancel": "Cancel",
     "confirm": "Confirm",
     "save": "Save",
-    "back": "Back"
+    "back": "Back",
+    "next": "Next",
+    "skip": "Skip"
   }
 }

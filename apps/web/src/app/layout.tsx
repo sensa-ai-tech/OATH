@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
+import { AuthProvider } from '@/components/providers/auth-provider';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -20,7 +21,12 @@ export default async function RootLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <AuthProvider
+            supabaseUrl={process.env.NEXT_PUBLIC_SUPABASE_URL!}
+            supabaseAnonKey={process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!}
+          >
+            {children}
+          </AuthProvider>
         </NextIntlClientProvider>
       </body>
     </html>

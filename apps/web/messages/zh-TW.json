@@ -1,13 +1,16 @@
 {
   "home": {
-    "subtitle": "融合中西智慧的個人化成長夥伴"
+    "subtitle": "融合中西智慧的個人化成長夥伴",
+    "cta": "開始你的旅程"
   },
   "daily": {
     "title": "今日運勢",
     "expand": "展開詳情",
     "collapse": "收合",
     "share": "分享",
-    "noData": "今日運勢尚未生成"
+    "noData": "今日運勢尚未生成",
+    "offline": "離線模式 — 顯示快取資料",
+    "actionTitle": "今日行動建議"
   },
   "chart": {
     "title": "個人命盤",
@@ -19,7 +22,39 @@
   "auth": {
     "login": "登入",
     "register": "註冊",
-    "logout": "登出"
+    "logout": "登出",
+    "email": "電子信箱",
+    "password": "密碼",
+    "passwordConfirm": "確認密碼",
+    "loginSubmit": "登入",
+    "registerSubmit": "建立帳號",
+    "noAccount": "還沒有帳號？",
+    "hasAccount": "已經有帳號？",
+    "googleLogin": "使用 Google 登入",
+    "or": "或",
+    "loginError": "登入失敗，請確認帳號密碼",
+    "registerError": "註冊失敗，請檢查輸入資料",
+    "passwordMismatch": "兩次密碼不一致",
+    "emailRequired": "請輸入電子信箱",
+    "passwordRequired": "請輸入密碼",
+    "passwordMinLength": "密碼至少 8 個字元",
+    "oauthError": "第三方登入失敗，請重試"
+  },
+  "birth": {
+    "title": "出生資料",
+    "description": "提供出生資訊以獲得更精準的個人化指引",
+    "datetime": "出生日期與時間",
+    "timezone": "時區",
+    "precision": "出生時間精確度",
+    "precisionExact": "精確（知道確切時分）",
+    "precisionApproximate": "大約（知道上午或下午）",
+    "precisionUnknown": "不確定",
+    "gender": "生理性別（八字用）",
+    "genderMale": "男",
+    "genderFemale": "女",
+    "genderSkip": "不提供",
+    "location": "出生地點",
+    "locationHelper": "可選填，提供更精準的占星資料"
   },
   "profile": {
     "title": "個人設定",
@@ -33,6 +68,8 @@
     "cancel": "取消",
     "confirm": "確認",
     "save": "儲存",
-    "back": "返回"
+    "back": "返回",
+    "next": "下一步",
+    "skip": "略過"
   }
 }
