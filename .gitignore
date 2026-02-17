@@ -53,6 +53,9 @@ pnpm-debug.log*
 *.mobileprovision
 *.orig.*
 
+# MCP (contains access tokens)
+.mcp.json
+
 # Misc
 nul
 *.tgz
