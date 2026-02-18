@@ -5,11 +5,11 @@
  */
 
 import { create } from 'zustand';
-import type { NatalChart, ApiError } from '@oath/shared/types/index.js';
+import type { NatalChart, ApiError } from '@oath/shared/types/index';
 import {
   computeNatalChart,
   recomputeNatalChart,
-} from '../api/chart-api.js';
+} from '../api/chart-api';
 
 interface ChartState {
   natalChart: NatalChart | null;

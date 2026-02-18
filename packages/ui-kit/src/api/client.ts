@@ -8,8 +8,8 @@
  * - 型別安全的回應解析
  */
 
-import type { ApiResponse } from '@oath/shared/types/api.js';
-import { getEdgeFunctionUrl, getSupabaseConfig } from './supabase.js';
+import type { ApiResponse } from '@oath/shared/types/api';
+import { getEdgeFunctionUrl, getSupabaseConfig } from './supabase';
 
 interface FetchOptions {
   readonly method?: 'GET' | 'POST' | 'PATCH' | 'DELETE';

@@ -11,7 +11,7 @@
  * - CacheManager：統一快取管理邏輯
  */
 
-import type { DailyFortune } from '@oath/shared/types/index.js';
+import type { DailyFortune } from '@oath/shared/types/index';
 
 /** 快取項目 */
 interface CacheEntry<T> {

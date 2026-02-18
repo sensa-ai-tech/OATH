@@ -9,9 +9,9 @@
  */
 
 import { useCallback, useEffect, useRef } from 'react';
-import { useFortuneStore } from '../stores/fortune-store.js';
-import type { OfflineCacheManager } from '../stores/offline-cache.js';
-import type { DailyFortune, ApiError } from '@oath/shared/types/index.js';
+import { useFortuneStore } from '../stores/fortune-store';
+import type { OfflineCacheManager } from '../stores/offline-cache';
+import type { DailyFortune, ApiError } from '@oath/shared/types/index';
 
 interface UseDailyFortuneOptions {
   /** 離線快取管理器（由平台注入） */

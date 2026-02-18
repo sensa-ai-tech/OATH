@@ -7,8 +7,8 @@ import type {
   GetDailyFortuneResponse,
   GetDailyFortuneRangeResponse,
   ShareCardResponse,
-} from '@oath/shared/types/api.js';
-import { callEdgeFunction } from './client.js';
+} from '@oath/shared/types/api';
+import { callEdgeFunction } from './client';
 
 /**
  * 取得指定日期的每日運勢

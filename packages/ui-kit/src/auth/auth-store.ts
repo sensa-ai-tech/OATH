@@ -3,7 +3,7 @@
  */
 
 import { create } from 'zustand';
-import type { AuthSession } from './auth-interface.js';
+import type { AuthSession } from './auth-interface';
 
 interface AuthState {
   session: AuthSession | null;

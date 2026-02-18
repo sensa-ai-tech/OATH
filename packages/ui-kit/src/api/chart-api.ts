@@ -5,8 +5,8 @@
 import type {
   ApiResponse,
   ComputeNatalChartResponse,
-} from '@oath/shared/types/api.js';
-import { callEdgeFunction } from './client.js';
+} from '@oath/shared/types/api';
+import { callEdgeFunction } from './client';
 
 /**
  * 計算個人命盤（占星 + 八字聚合）

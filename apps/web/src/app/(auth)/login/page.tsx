@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, type FormEvent } from 'react';
+import { Suspense, useState, type FormEvent } from 'react';
 import { useTranslations } from 'next-intl';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
@@ -8,6 +8,18 @@ import { createWebAuthAdapter } from '@/lib/supabase/auth-adapter';
 import { useAuthStore } from '@oath/ui-kit/auth/auth-store';
 
 export default function LoginPage() {
+  return (
+    <Suspense fallback={
+      <main className="flex min-h-screen items-center justify-center">
+        <div className="animate-pulse text-lg" style={{ color: 'var(--color-text-secondary)' }}>載入中...</div>
+      </main>
+    }>
+      <LoginContent />
+    </Suspense>
+  );
+}
+
+function LoginContent() {
   const t = useTranslations('auth');
   const router = useRouter();
   const searchParams = useSearchParams();

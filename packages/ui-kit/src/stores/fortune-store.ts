@@ -5,12 +5,12 @@
  */
 
 import { create } from 'zustand';
-import type { DailyFortune, ApiError } from '@oath/shared/types/index.js';
+import type { DailyFortune, ApiError } from '@oath/shared/types/index';
 import {
   fetchDailyFortune,
   fetchFortuneRange,
   getTodayDate,
-} from '../api/fortune-api.js';
+} from '../api/fortune-api';
 
 interface FortuneState {
   today: DailyFortune | null;

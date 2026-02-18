@@ -9,9 +9,9 @@
  */
 
 import { useCallback, useEffect, useRef } from 'react';
-import { useChartStore } from '../stores/chart-store.js';
-import type { OfflineCacheManager } from '../stores/offline-cache.js';
-import type { NatalChart, ApiError } from '@oath/shared/types/index.js';
+import { useChartStore } from '../stores/chart-store';
+import type { OfflineCacheManager } from '../stores/offline-cache';
+import type { NatalChart, ApiError } from '@oath/shared/types/index';
 
 interface UseNatalChartOptions {
   /** 離線快取管理器（由平台注入） */
