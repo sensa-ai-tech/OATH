@@ -143,7 +143,7 @@ export async function writeSystemLog(
 ): Promise<void> {
   try {
     await supabaseClient
-      .from('system_logs')
+      .from('oath_system_logs')
       .insert({
         event_type: eventType,
         user_id: userId,
