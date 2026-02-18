@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { useAuthStore } from '@oath/ui-kit/auth/auth-store';
 import { useNatalChart } from '@oath/ui-kit/hooks/use-natal-chart';
-import { NavBar } from '@/components/layout/nav-bar';
 import type { PlanetPosition } from '@oath/shared/types/natal-chart';
 
 type Tab = 'astrology' | 'bazi';
@@ -76,8 +75,7 @@ export default function ChartPage() {
     useNatalChart({ userId: session?.user.id, autoFetch: true });
 
   return (
-    <>
-      <main className="min-h-screen pb-20 px-4 pt-8 max-w-lg mx-auto">
+      <main className="px-4 pt-8 max-w-lg mx-auto">
         <h1
           className="text-2xl font-bold mb-6"
           style={{ color: 'var(--color-text-primary)' }}
@@ -424,7 +422,5 @@ export default function ChartPage() {
           </div>
         )}
       </main>
-      <NavBar />
-    </>
   );
 }

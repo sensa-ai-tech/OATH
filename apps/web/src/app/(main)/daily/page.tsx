@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { useDailyFortune } from '@oath/ui-kit/hooks/use-daily-fortune';
-import { NavBar } from '@/components/layout/nav-bar';
 
 export default function DailyFortunePage() {
   const t = useTranslations();
@@ -10,8 +9,7 @@ export default function DailyFortunePage() {
     useDailyFortune({ autoFetch: true });
 
   return (
-    <>
-      <main className="min-h-screen pb-20 px-4 pt-8 max-w-lg mx-auto">
+      <main className="px-4 pt-8 max-w-lg mx-auto">
         {/* Header */}
         <div className="mb-6">
           <h1
@@ -223,7 +221,5 @@ export default function DailyFortunePage() {
           </div>
         )}
       </main>
-      <NavBar />
-    </>
   );
 }

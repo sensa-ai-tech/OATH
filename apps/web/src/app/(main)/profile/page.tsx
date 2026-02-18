@@ -5,7 +5,6 @@ import { useTranslations } from 'next-intl';
 import { useRouter } from 'next/navigation';
 import { useAuthStore } from '@oath/ui-kit/auth/auth-store';
 import { createWebAuthAdapter } from '@/lib/supabase/auth-adapter';
-import { NavBar } from '@/components/layout/nav-bar';
 
 export default function ProfilePage() {
   const t = useTranslations();
@@ -41,8 +40,7 @@ export default function ProfilePage() {
   };
 
   return (
-    <>
-      <main className="min-h-screen pb-20 px-4 pt-8 max-w-lg mx-auto">
+      <main className="px-4 pt-8 max-w-lg mx-auto">
         <h1
           className="text-2xl font-bold mb-6"
           style={{ color: 'var(--color-text-primary)' }}
@@ -174,7 +172,5 @@ export default function ProfilePage() {
           </div>
         )}
       </main>
-      <NavBar />
-    </>
   );
 }
